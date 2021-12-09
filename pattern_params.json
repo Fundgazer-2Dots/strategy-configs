@@ -10,13 +10,14 @@
     ],
 
     "atr": { "n": 14 },
+    "divergence": false,
     "bullish": true,
     "bearish": false,
     "exit1": true,
     "exit2": false
   },
   {
-    "config_id": "3",
+    "config_id": "2",
     "strategy":"strategy_crossover_obv",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -323,22 +324,6 @@
     "bar_count":100000,
     "conditions": [
       { "name": "OutsideDay", "params": {} }
-    ],
-
-    "atr": { "n": 14 },
-
-    "exit1": true,
-    "exit2": false
-  },
-  {
-    "config_id": "",
-    "strategy":"strategy_crossover_obv",
-    "symbol":"HDFC BANK",
-    "timeframe": "15min",
-    "bar_count":100000,
-    "conditions": [
-      { "name": "RSI_Condition_opposite", "params": { "n": 14 } },
-      { "name": "OBV_Condition", "params": { "n": } }
     ],
 
     "atr": { "n": 14 },
@@ -1082,22 +1067,6 @@
     "exit2": true
   },
   {
-    "config_id": "",
-    "strategy":"strategy_crossover_obv",
-    "symbol":"HDFC BANK",
-    "timeframe": "15min",
-    "bar_count":100000,
-    "conditions": [
-      { "name": "RSI_Condition_opposite", "params": { "n": 14 } },
-      { "name": "OBV_Condition", "params": { "n": } }
-    ],
-
-    "atr": { "n": 14 },
-
-    "exit1": true,
-    "exit2": false
-  },
-  {
     "config_id": "010",
     "strategy":"strategy_crossover_obv",
     "symbol":"HDFC BANK",
@@ -1501,5 +1470,6 @@
 
     "exit1": false,
     "exit2": true
-  },
+  }
+] 
   
