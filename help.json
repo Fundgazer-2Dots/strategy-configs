@@ -1,6 +1,6 @@
 [
   {
-    "config_id": "1",
+    "config_id": "10",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -10,14 +10,15 @@
     ],
 
     "atr": { "n": 14 },
+    
     "divergence": false,
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "2",
+    "config_id": "20",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -31,11 +32,11 @@
     "divergence": false,
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "3",
+    "config_id": "30",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -49,11 +50,11 @@
     "divergence": false,
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "4",
+    "config_id": "40",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -67,11 +68,11 @@
     "divergence": false,
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "5",
+    "config_id": "50",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -85,11 +86,11 @@
     "divergence": false,
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "6",
+    "config_id": "60",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -103,11 +104,11 @@
     "divergence": false,
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "7",
+    "config_id": "70",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -121,11 +122,11 @@
     "divergence": false,
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "8",
+    "config_id": "80",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -139,11 +140,11 @@
     "divergence": false,
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "9",
+    "config_id": "90",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -157,11 +158,11 @@
     "divergence": false,
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "10",
+    "config_id": "100",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -175,11 +176,11 @@
     "divergence": false,
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "11",
+    "config_id": "110",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -193,11 +194,11 @@
     "divergence": false,
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "12",
+    "config_id": "120",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -211,11 +212,11 @@
     "divergence": false,
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "13",
+    "config_id": "130",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -229,11 +230,11 @@
     "divergence": false,
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "14",
+    "config_id": "140",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -247,11 +248,11 @@
     "divergence": false,
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "15",
+    "config_id": "150",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -265,11 +266,11 @@
     "divergence": false,
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "16",
+    "config_id": "160",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -283,11 +284,11 @@
     "divergence": false,
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "17",
+    "config_id": "170",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -301,11 +302,11 @@
     "divergence": false,
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "18",
+    "config_id": "180",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -319,11 +320,11 @@
     "divergence": false,
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "19",
+    "config_id": "190",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -337,11 +338,11 @@
     "divergence": false,
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "20",
+    "config_id": "200",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -355,11 +356,11 @@
     "divergence": false,
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "21",
+    "config_id": "210",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -373,11 +374,11 @@
     "divergence": false,
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "22",
+    "config_id": "220",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -391,8 +392,8 @@
     "divergence": false,
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "23",
@@ -410,8 +411,8 @@
     "divergence":true, 
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "24",
@@ -429,8 +430,8 @@
     "divergence":true, 
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "25",
@@ -448,8 +449,8 @@
     "divergence":true, 
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "26",
@@ -467,8 +468,8 @@
     "divergence":true, 
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "26",
@@ -486,8 +487,8 @@
     "divergence":true, 
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "27",
@@ -505,8 +506,8 @@
     "divergence":true, 
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "28",
@@ -524,8 +525,8 @@
     "divergence":true, 
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "29",
@@ -543,8 +544,8 @@
     "divergence":true, 
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "30",
@@ -562,8 +563,8 @@
     "divergence":true, 
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "31",
@@ -581,8 +582,8 @@
     "divergence":true, 
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "32",
@@ -600,8 +601,8 @@
     "divergence":true, 
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "33",
@@ -619,8 +620,8 @@
     "divergence":true, 
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "34",
@@ -638,11 +639,11 @@
     "divergence":true, 
     "bullish": false,
     "bearish": true,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "01",
+    "config_id": "010",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -656,11 +657,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "02",
+    "config_id": "020",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -674,11 +675,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "03",
+    "config_id": "030",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -692,11 +693,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "04",
+    "config_id": "040",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -710,11 +711,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "05",
+    "config_id": "050",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -728,11 +729,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "06",
+    "config_id": "060",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -746,11 +747,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "07",
+    "config_id": "070",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -764,11 +765,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "08",
+    "config_id": "080",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -782,11 +783,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "09",
+    "config_id": "090",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -800,11 +801,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "010",
+    "config_id": "0100",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -818,11 +819,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "011",
+    "config_id": "0110",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -836,11 +837,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "012",
+    "config_id": "0120",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -854,11 +855,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "013",
+    "config_id": "0130",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -872,11 +873,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "014",
+    "config_id": "0140",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -890,11 +891,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "015",
+    "config_id": "0150",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -908,11 +909,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "016",
+    "config_id": "0160",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -926,11 +927,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "017",
+    "config_id": "0170",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -944,11 +945,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "018",
+    "config_id": "0180",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -962,11 +963,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "019",
+    "config_id": "0190",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -980,11 +981,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "020",
+    "config_id": "0200",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -998,11 +999,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "021",
+    "config_id": "0210",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -1016,11 +1017,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "022",
+    "config_id": "0220",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -1034,11 +1035,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "023",
+    "config_id": "0230",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -1052,11 +1053,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "024",
+    "config_id": "0240",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -1070,11 +1071,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "025",
+    "config_id": "0250",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -1088,11 +1089,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "026",
+    "config_id": "0260",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -1106,11 +1107,11 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "exit1": false,
+    "exit2": true
   },
   {
-    "config_id": "027",
+    "config_id": "0270",
     "strategy":"strategy_single_indicator",
     "symbol":"HDFC BANK",
     "timeframe": "15min",
@@ -1124,9 +1125,9 @@
     "divergence": false,
     "bullish": true,
     "bearish": false,
-    "exit1": true,
-    "exit2": false
-  },
+    "exit1": false,
+    "exit2": true
+  }  
   {
     "config_id": "028",
     "strategy":"strategy_single_indicator",
@@ -1141,10 +1142,10 @@
     "rsi": { "n": 10 },
 
     "divergence":true, 
-    "bullish": true,
-    "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "029",
@@ -1160,10 +1161,10 @@
     "Stochastic": { "n": 10 },
 
     "divergence":true, 
-    "bullish": true,
-    "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "030",
@@ -1179,10 +1180,10 @@
     "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
 
     "divergence":true, 
-    "bullish": true,
-    "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "031",
@@ -1198,10 +1199,10 @@
     "MFI": { "period": 14  },
 
     "divergence":true, 
-    "bullish": true,
-    "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "032",
@@ -1217,10 +1218,10 @@
     "UO": { },
 
     "divergence":true, 
-    "bullish": true,
-    "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "034",
@@ -1236,10 +1237,10 @@
     "william_percentage_R": { "period": 14},
 
     "divergence":true, 
-    "bullish": true,
-    "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "035",
@@ -1255,10 +1256,10 @@
     "CCI": { "period": 14},
 
     "divergence":true, 
-    "bullish": true,
-    "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "036",
@@ -1274,10 +1275,10 @@
     "Acceleration_Oscillator": { },
 
     "divergence":true, 
-    "bullish": true,
-    "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "037",
@@ -1293,10 +1294,10 @@
     "Awesome_Oscillator": { },
 
     "divergence":true, 
-    "bullish": true,
-    "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "038",
@@ -1312,10 +1313,10 @@
     "Volume_Oscillator": { },
 
     "divergence":true, 
-    "bullish": true,
-    "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "039",
@@ -1331,10 +1332,10 @@
     "OBV": { },
 
     "divergence":true, 
-    "bullish": true,
-    "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "040",
@@ -1350,10 +1351,10 @@
     "AD": { },
 
     "divergence":true, 
-    "bullish": true,
-    "bearish": false,
-    "exit1": true,
-    "exit2": false
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
   },
   {
     "config_id": "041",
@@ -1369,11 +1370,9 @@
     "Stochastic_Volume": {"n": 14 },
 
     "divergence":true, 
-    "bullish": true,
-    "bearish": false,
-    "exit1": true,
-    "exit2": false
-  }
- 
-] 
-  
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+]
