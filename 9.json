@@ -1,0 +1,3735 @@
+{
+    "config_id": "1",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } }, 
+      { "name": "fractalBreakoutup", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+    "findMaxima": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "2",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } },
+      { "name": "Three_Bar_Congestion", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "3",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } },
+      { "name": "Bull_Gap", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "4",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } },
+      { "name": "Days_2_5_Conditon2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "5",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } },
+      { "name": "two_red_candles_Condition", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "6",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } },
+      { "name": "close_and_prev_low_Condition", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "7",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } },
+      { "name": "close_prior_close_and_avg_high_Condition2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "8",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } },
+      { "name": "high_and_close_Condition2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "9",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } },
+      { "name": "Close_High1", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "10",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } },
+      { "name": "bollinger_band_inside_keltner", "params": {"period":20 , "coeff":2} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+    "Bolinger_Bands": { "window_size": 20 , "num_of_std": 2},
+    "KeltnerChannel": {"n_atr": 10},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "11",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } },
+      { "name": "crossOverMA1", "params": {"fastPeriod": 50,"slowPeriod":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "12",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } },
+      { "name": "Z_consecutiveCloseWithX_SMAbull", "params": {"period":3 , "maPeriod":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "13",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } },
+      { "name": "Trix_range", "params": {"period":14} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+    "Trix": {"period": 10 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "14",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } },
+      { "name": "XupClose", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "15",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } },
+      { "name": "adxWithX_avgbull", "params": {"X":20  , "Y":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+    "adx": {"n":20},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "16",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } },
+      { "name": "Moving_Avg_Conditionup", "params": {"period":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "17",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } },
+      { "name": "avg_midpoint_Condition1", "params": {"period":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "18",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } },
+      { "name": "avg_range_Conditiongreater", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "19",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } },
+      { "name": "avg_range_Conditionsmaller", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "21",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } },
+      { "name": "high_low_Condition2", "params": {"period":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } },
+      { "name": "close_high_closing_Avg_Conditionlow", "params": {"period":50} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } },
+      { "name": "Ravi_above_cutoff_Price_above_fractal", "params": {"cutoff":40} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+    "RAVI": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } },
+      { "name": "Choppiness_Index_below_50", "params": {"period":40} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+    "choppiness_index":{"tp":},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "UO", "params": { } },
+      { "name": "OutsideDay", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "UO": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "1",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } }, 
+      { "name": "fractalBreakoutup", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+    "findMaxima": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "2",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } },
+      { "name": "Three_Bar_Congestion", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "3",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } },
+      { "name": "Bull_Gap", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "4",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } },
+      { "name": "Days_2_5_Conditon2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "5",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } },
+      { "name": "two_red_candles_Condition", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "6",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } },
+      { "name": "close_and_prev_low_Condition", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "7",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } },
+      { "name": "close_prior_close_and_avg_high_Condition2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "8",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } },
+      { "name": "high_and_close_Condition2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "9",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } },
+      { "name": "Close_High1", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "10",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } },
+      { "name": "bollinger_band_inside_keltner", "params": {"period":20 , "coeff":2} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+    "Bolinger_Bands": { "window_size": 20 , "num_of_std": 2},
+    "KeltnerChannel": {"n_atr": 10},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "11",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } },
+      { "name": "crossOverMA1", "params": {"fastPeriod": 50,"slowPeriod":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "12",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } },
+      { "name": "Z_consecutiveCloseWithX_SMAbull", "params": {"period":3 , "maPeriod":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "13",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } },
+      { "name": "Trix_range", "params": {"period":14} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+    "Trix": {"period": 10 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "14",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } },
+      { "name": "XupClose", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "15",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } },
+      { "name": "adxWithX_avgbull", "params": {"X":20  , "Y":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+    "adx": {"n":20},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "16",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } },
+      { "name": "Moving_Avg_Conditionup", "params": {"period":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "17",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } },
+      { "name": "avg_midpoint_Condition1", "params": {"period":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "18",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } },
+      { "name": "avg_range_Conditiongreater", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "19",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } },
+      { "name": "avg_range_Conditionsmaller", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "21",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } },
+      { "name": "high_low_Condition2", "params": {"period":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } },
+      { "name": "close_high_closing_Avg_Conditionlow", "params": {"period":50} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } },
+      { "name": "Ravi_above_cutoff_Price_above_fractal", "params": {"cutoff":40} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+    "RAVI": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } },
+      { "name": "Choppiness_Index_below_50", "params": {"period":40} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+    "choppiness_index":{"tp":},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Awesome_Oscillator", "params": { } },
+      { "name": "OutsideDay", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "1",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } }, 
+      { "name": "fractalBreakoutup", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+    "findMaxima": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "2",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } },
+      { "name": "Three_Bar_Congestion", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "3",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } },
+      { "name": "Bull_Gap", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "4",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } },
+      { "name": "Days_2_5_Conditon2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "5",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } },
+      { "name": "two_red_candles_Condition", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "6",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } },
+      { "name": "close_and_prev_low_Condition", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "7",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } },
+      { "name": "close_prior_close_and_avg_high_Condition2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "8",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } },
+      { "name": "high_and_close_Condition2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "9",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } },
+      { "name": "Close_High1", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "10",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } },
+      { "name": "bollinger_band_inside_keltner", "params": {"period":20 , "coeff":2} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+    "Bolinger_Bands": { "window_size": 20 , "num_of_std": 2},
+    "KeltnerChannel": {"n_atr": 10},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "11",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } },
+      { "name": "crossOverMA1", "params": {"fastPeriod": 50,"slowPeriod":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "12",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } },
+      { "name": "Z_consecutiveCloseWithX_SMAbull", "params": {"period":3 , "maPeriod":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "13",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } },
+      { "name": "Trix_range", "params": {"period":14} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+    "Trix": {"period": 10 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "14",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } },
+      { "name": "XupClose", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "15",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } },
+      { "name": "adxWithX_avgbull", "params": {"X":20  , "Y":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+    "adx": {"n":20},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "16",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } },
+      { "name": "Moving_Avg_Conditionup", "params": {"period":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "17",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } },
+      { "name": "avg_midpoint_Condition1", "params": {"period":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "18",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } },
+      { "name": "avg_range_Conditiongreater", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "19",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } },
+      { "name": "avg_range_Conditionsmaller", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "21",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } },
+      { "name": "high_low_Condition2", "params": {"period":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } },
+      { "name": "close_high_closing_Avg_Conditionlow", "params": {"period":50} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } },
+      { "name": "Ravi_above_cutoff_Price_above_fractal", "params": {"cutoff":40} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+    "RAVI": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } },
+      { "name": "Choppiness_Index_below_50", "params": {"period":40} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+    "choppiness_index":{"tp":},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Acceleration_Oscillator", "params": { } },
+      { "name": "OutsideDay", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "1",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } }, 
+      { "name": "fractalBreakoutup", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+    "findMaxima": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "2",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } },
+      { "name": "Three_Bar_Congestion", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "3",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } },
+      { "name": "Bull_Gap", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "4",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } },
+      { "name": "Days_2_5_Conditon2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "5",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } },
+      { "name": "two_red_candles_Condition", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "6",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } },
+      { "name": "close_and_prev_low_Condition", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "7",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } },
+      { "name": "close_prior_close_and_avg_high_Condition2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "8",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } },
+      { "name": "high_and_close_Condition2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "9",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } },
+      { "name": "Close_High1", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "10",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } },
+      { "name": "bollinger_band_inside_keltner", "params": {"period":20 , "coeff":2} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+    "Bolinger_Bands": { "window_size": 20 , "num_of_std": 2},
+    "KeltnerChannel": {"n_atr": 10},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "11",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } },
+      { "name": "crossOverMA1", "params": {"fastPeriod": 50,"slowPeriod":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "12",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } },
+      { "name": "Z_consecutiveCloseWithX_SMAbull", "params": {"period":3 , "maPeriod":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "13",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } },
+      { "name": "Trix_range", "params": {"period":14} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+    "Trix": {"period": 10 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "14",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } },
+      { "name": "XupClose", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "15",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } },
+      { "name": "adxWithX_avgbull", "params": {"X":20  , "Y":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+    "adx": {"n":20},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "16",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } },
+      { "name": "Moving_Avg_Conditionup", "params": {"period":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "17",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } },
+      { "name": "avg_midpoint_Condition1", "params": {"period":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "18",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } },
+      { "name": "avg_range_Conditiongreater", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "19",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } },
+      { "name": "avg_range_Conditionsmaller", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "21",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } },
+      { "name": "high_low_Condition2", "params": {"period":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } },
+      { "name": "close_high_closing_Avg_Conditionlow", "params": {"period":50} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } },
+      { "name": "Ravi_above_cutoff_Price_above_fractal", "params": {"cutoff":40} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+    "RAVI": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } },
+      { "name": "Choppiness_Index_below_50", "params": {"period":40} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+    "choppiness_index":{"tp":},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "rsi", "params": {"n": 10 } },
+      { "name": "OutsideDay", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "rsi": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "1",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } }, 
+      { "name": "fractalBreakoutup", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+    "findMaxima": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "2",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } },
+      { "name": "Three_Bar_Congestion", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "3",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } },
+      { "name": "Bull_Gap", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "4",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } },
+      { "name": "Days_2_5_Conditon2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "5",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } },
+      { "name": "two_red_candles_Condition", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "6",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } },
+      { "name": "close_and_prev_low_Condition", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "7",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } },
+      { "name": "close_prior_close_and_avg_high_Condition2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "8",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } },
+      { "name": "high_and_close_Condition2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "9",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } },
+      { "name": "Close_High1", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "10",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } },
+      { "name": "bollinger_band_inside_keltner", "params": {"period":20 , "coeff":2} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+    "Bolinger_Bands": { "window_size": 20 , "num_of_std": 2},
+    "KeltnerChannel": {"n_atr": 10},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "11",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } },
+      { "name": "crossOverMA1", "params": {"fastPeriod": 50,"slowPeriod":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "12",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } },
+      { "name": "Z_consecutiveCloseWithX_SMAbull", "params": {"period":3 , "maPeriod":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "13",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } },
+      { "name": "Trix_range", "params": {"period":14} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+    "Trix": {"period": 10 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "14",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } },
+      { "name": "XupClose", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "15",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } },
+      { "name": "adxWithX_avgbull", "params": {"X":20  , "Y":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+    "adx": {"n":20},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "16",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } },
+      { "name": "Moving_Avg_Conditionup", "params": {"period":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "17",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } },
+      { "name": "avg_midpoint_Condition1", "params": {"period":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "18",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } },
+      { "name": "avg_range_Conditiongreater", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "19",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } },
+      { "name": "avg_range_Conditionsmaller", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "21",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } },
+      { "name": "high_low_Condition2", "params": {"period":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } },
+      { "name": "close_high_closing_Avg_Conditionlow", "params": {"period":50} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } },
+      { "name": "Ravi_above_cutoff_Price_above_fractal", "params": {"cutoff":40} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+    "RAVI": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } },
+      { "name": "Choppiness_Index_below_50", "params": {"period":40} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+    "choppiness_index":{"tp":},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "Stochastic", "params": {"n": 10 } },
+      { "name": "OutsideDay", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "1",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } }, 
+      { "name": "fractalBreakoutup", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+    "findMaxima": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "2",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } },
+      { "name": "Three_Bar_Congestion", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "3",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } },
+      { "name": "Bull_Gap", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "4",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } },
+      { "name": "Days_2_5_Conditon2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "5",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } },
+      { "name": "two_red_candles_Condition", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "6",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } },
+      { "name": "close_and_prev_low_Condition", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "7",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } },
+      { "name": "close_prior_close_and_avg_high_Condition2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "8",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } },
+      { "name": "high_and_close_Condition2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "9",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } },
+      { "name": "Close_High1", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "10",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } },
+      { "name": "bollinger_band_inside_keltner", "params": {"period":20 , "coeff":2} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+    "Bolinger_Bands": { "window_size": 20 , "num_of_std": 2},
+    "KeltnerChannel": {"n_atr": 10},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "11",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } },
+      { "name": "crossOverMA1", "params": {"fastPeriod": 50,"slowPeriod":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "12",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } },
+      { "name": "Z_consecutiveCloseWithX_SMAbull", "params": {"period":3 , "maPeriod":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "13",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } },
+      { "name": "Trix_range", "params": {"period":14} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+    "Trix": {"period": 10 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "14",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } },
+      { "name": "XupClose", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "15",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } },
+      { "name": "adxWithX_avgbull", "params": {"X":20  , "Y":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+    "adx": {"n":20},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "16",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } },
+      { "name": "Moving_Avg_Conditionup", "params": {"period":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "17",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } },
+      { "name": "avg_midpoint_Condition1", "params": {"period":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "18",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } },
+      { "name": "avg_range_Conditiongreater", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "19",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } },
+      { "name": "avg_range_Conditionsmaller", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "21",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } },
+      { "name": "high_low_Condition2", "params": {"period":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } },
+      { "name": "close_high_closing_Avg_Conditionlow", "params": {"period":50} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } },
+      { "name": "Ravi_above_cutoff_Price_above_fractal", "params": {"cutoff":40} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+    "RAVI": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } },
+      { "name": "Choppiness_Index_below_50", "params": {"period":40} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+    "choppiness_index":{"tp":},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CCI", "params": {"period": 10 } },
+      { "name": "OutsideDay", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CCI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "1",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } }, 
+      { "name": "fractalBreakoutup", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+    "findMaxima": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "2",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } },
+      { "name": "Three_Bar_Congestion", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "3",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } },
+      { "name": "Bull_Gap", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "4",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } },
+      { "name": "Days_2_5_Conditon2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "5",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } },
+      { "name": "two_red_candles_Condition", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "6",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } },
+      { "name": "close_and_prev_low_Condition", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "7",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } },
+      { "name": "close_prior_close_and_avg_high_Condition2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "8",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } },
+      { "name": "high_and_close_Condition2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "9",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } },
+      { "name": "Close_High1", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "10",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } },
+      { "name": "bollinger_band_inside_keltner", "params": {"period":20 , "coeff":2} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+    "Bolinger_Bands": { "window_size": 20 , "num_of_std": 2},
+    "KeltnerChannel": {"n_atr": 10},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "11",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } },
+      { "name": "crossOverMA1", "params": {"fastPeriod": 50,"slowPeriod":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "12",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } },
+      { "name": "Z_consecutiveCloseWithX_SMAbull", "params": {"period":3 , "maPeriod":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "13",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } },
+      { "name": "Trix_range", "params": {"period":14} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+    "Trix": {"period": 10 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "14",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } },
+      { "name": "XupClose", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "15",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } },
+      { "name": "adxWithX_avgbull", "params": {"X":20  , "Y":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+    "adx": {"n":20},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "16",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } },
+      { "name": "Moving_Avg_Conditionup", "params": {"period":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "17",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } },
+      { "name": "avg_midpoint_Condition1", "params": {"period":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "18",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } },
+      { "name": "avg_range_Conditiongreater", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "19",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } },
+      { "name": "avg_range_Conditionsmaller", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "21",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } },
+      { "name": "high_low_Condition2", "params": {"period":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } },
+      { "name": "close_high_closing_Avg_Conditionlow", "params": {"period":50} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } },
+      { "name": "Ravi_above_cutoff_Price_above_fractal", "params": {"cutoff":40} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+    "RAVI": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } },
+      { "name": "Choppiness_Index_below_50", "params": {"period":40} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+    "choppiness_index":{"tp":},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "MFI", "params": {"period": 10 } },
+      { "name": "OutsideDay", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "MFI": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "1",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } }, 
+      { "name": "fractalBreakoutup", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+    "findMaxima": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "2",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } },
+      { "name": "Three_Bar_Congestion", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "3",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } },
+      { "name": "Bull_Gap", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "4",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } },
+      { "name": "Days_2_5_Conditon2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "5",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } },
+      { "name": "two_red_candles_Condition", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "6",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } },
+      { "name": "close_and_prev_low_Condition", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "7",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } },
+      { "name": "close_prior_close_and_avg_high_Condition2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "8",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } },
+      { "name": "high_and_close_Condition2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "9",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } },
+      { "name": "Close_High1", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "10",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } },
+      { "name": "bollinger_band_inside_keltner", "params": {"period":20 , "coeff":2} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+    "Bolinger_Bands": { "window_size": 20 , "num_of_std": 2},
+    "KeltnerChannel": {"n_atr": 10},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "11",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } },
+      { "name": "crossOverMA1", "params": {"fastPeriod": 50,"slowPeriod":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "12",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } },
+      { "name": "Z_consecutiveCloseWithX_SMAbull", "params": {"period":3 , "maPeriod":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "13",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } },
+      { "name": "Trix_range", "params": {"period":14} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+    "Trix": {"period": 10 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "14",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } },
+      { "name": "XupClose", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "15",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } },
+      { "name": "adxWithX_avgbull", "params": {"X":20  , "Y":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+    "adx": {"n":20},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "16",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } },
+      { "name": "Moving_Avg_Conditionup", "params": {"period":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "17",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } },
+      { "name": "avg_midpoint_Condition1", "params": {"period":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "18",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } },
+      { "name": "avg_range_Conditiongreater", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "19",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } },
+      { "name": "avg_range_Conditionsmaller", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "21",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } },
+      { "name": "high_low_Condition2", "params": {"period":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } },
+      { "name": "close_high_closing_Avg_Conditionlow", "params": {"period":50} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } },
+      { "name": "Ravi_above_cutoff_Price_above_fractal", "params": {"cutoff":40} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+    "RAVI": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } },
+      { "name": "Choppiness_Index_below_50", "params": {"period":40} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+    "choppiness_index":{"tp":},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "william_percentage_R", "params": {"period": 10 } },
+      { "name": "OutsideDay", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 10  },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "1",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } }, 
+      { "name": "fractalBreakoutup", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+    "findMaxima": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "2",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } },
+      { "name": "Three_Bar_Congestion", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "3",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } },
+      { "name": "Bull_Gap", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "4",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } },
+      { "name": "Days_2_5_Conditon2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "5",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } },
+      { "name": "two_red_candles_Condition", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "6",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } },
+      { "name": "close_and_prev_low_Condition", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "7",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } },
+      { "name": "close_prior_close_and_avg_high_Condition2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "8",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } },
+      { "name": "high_and_close_Condition2", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "9",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } },
+      { "name": "Close_High1", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "10",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } },
+      { "name": "bollinger_band_inside_keltner", "params": {"period":20 , "coeff":2} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+    "Bolinger_Bands": { "window_size": 20 , "num_of_std": 2},
+    "KeltnerChannel": {"n_atr": 10},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "11",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } },
+      { "name": "crossOverMA1", "params": {"fastPeriod": 50,"slowPeriod":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "12",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } },
+      { "name": "Z_consecutiveCloseWithX_SMAbull", "params": {"period":3 , "maPeriod":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "13",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } },
+      { "name": "Trix_range", "params": {"period":14} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+    "Trix": {"period": 10 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "14",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } },
+      { "name": "XupClose", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "15",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } },
+      { "name": "adxWithX_avgbull", "params": {"X":20  , "Y":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+    "adx": {"n":20},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "16",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } },
+      { "name": "Moving_Avg_Conditionup", "params": {"period":20} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "17",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } },
+      { "name": "avg_midpoint_Condition1", "params": {"period":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "18",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } },
+      { "name": "avg_range_Conditiongreater", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "19",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } },
+      { "name": "avg_range_Conditionsmaller", "params": {"period":5} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "21",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } },
+      { "name": "high_low_Condition2", "params": {"period":10} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } },
+      { "name": "close_high_closing_Avg_Conditionlow", "params": {"period":50} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } },
+      { "name": "Ravi_above_cutoff_Price_above_fractal", "params": {"cutoff":40} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+    "RAVI": {},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } },
+      { "name": "Choppiness_Index_below_50", "params": {"period":40} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+    "choppiness_index":{"tp":},
+  
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_pattern_then_volume_sell",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+     "conditions": [ 
+        { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } },
+      { "name": "OutsideDay", "params": {} }
+    ],
+  
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+  
+    "exit1": true,
+    "exit2": false
+  },
