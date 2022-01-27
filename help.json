@@ -1127,7 +1127,7 @@
     "bearish": false,
     "exit1": false,
     "exit2": true
-  }  
+  } , 
   {
     "config_id": "028",
     "strategy":"strategy_single_indicator",
@@ -1374,5 +1374,5 @@
     "bearish": true,
     "exit1": false,
     "exit2": true
-  },
+  }
 ]
