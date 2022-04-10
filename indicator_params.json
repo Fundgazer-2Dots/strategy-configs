@@ -1,0 +1,126 @@
+[
+  {
+    "batch_id": 1,
+    "indicator_param": {
+      "atr": {
+        "n": 14
+      },
+      "rsi": {
+        "n": 14
+      },
+      "stochastic": {
+        "n": 14
+      },
+      "crsi": {
+        "rsiLength": 3,
+        "updownLength": 2,
+        "rocLength": 100
+      },
+      "mfi": {
+        "period": 14
+      },
+      "ultimate_oscilator": {},
+      "william_percentage_R": {
+        "period": 14
+      },
+      "cci": {
+        "period": 20
+      },
+      "acceleration_oscillator": {},
+      "awesome_oscillator": {},
+      "volume_oscillator": {},
+      "obv": {},
+      "accumulation_distribution": {},
+      "stochastic_volume": {
+        "n": 14
+      },
+      "ema": {
+        "period": 20
+      },
+      "adx": {
+        "n": 14
+      },
+      "bolinger_bands": {
+        "window_size": 20,
+        "num_of_std": 2
+      },
+      "keltner_channel": {
+        "period_ema": 20,
+        "n_atr": 14
+      },
+      "trix": {
+        "period": 18
+      },
+      "ravi": {},
+      "choppiness_index": {
+        "tp": 14
+      },
+      "sma": {
+        "period": 20
+      },
+      "true_range": {}
+    }
+  },
+  {
+    "batch_id": 2,
+    "indicator_param": {
+      "atr": {
+        "n": 14
+      },
+      "rsi": {
+        "n": 14
+      },
+      "stochastic": {
+        "n": 14
+      },
+      "crsi": {
+        "rsiLength": 3,
+        "updownLength": 2,
+        "rocLength": 100
+      },
+      "mfi": {
+        "period": 14
+      },
+      "ultimate_oscilator": {},
+      "william_percentage_R": {
+        "period": 14
+      },
+      "cci": {
+        "period": 20
+      },
+      "acceleration_oscillator": {},
+      "awesome_oscillator": {},
+      "volume_oscillator": {},
+      "obv": {},
+      "accumulation_distribution": {},
+      "stochastic_volume": {
+        "n": 14
+      },
+      "ema": {
+        "period": 20
+      },
+      "adx": {
+        "n": 14
+      },
+      "bolinger_bands": {
+        "window_size": 20,
+        "num_of_std": 2
+      },
+      "keltner_channel": {
+        "period_ema": 20,
+        "n_atr": 14
+      },
+      "trix": {
+        "period": 18
+      },
+      "ravi": {},
+      "choppiness_index": {
+        "tp": 14
+      },
+      "sma": {
+        "period": 20
+      },
+      "true_range": {}
+    }
+  }
+]
