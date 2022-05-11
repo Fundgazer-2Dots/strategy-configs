@@ -161,7 +161,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparison_index4_holdings",
+      "strategy_name": "Strategy_direct_comparision_index4_holdings",
       "filtering_type": "Reversal",
       "condition_type": "Reversal",
       "runtime": { "capital": 100000, "n_days": 3 },
@@ -171,7 +171,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparison_index4_holdings",
+      "strategy_name": "Strategy_direct_comparision_index4_holdings",
       "filtering_type": "Reversal",
       "condition_type": "Breakout",
       "runtime": { "capital": 100000, "n_days": 3 },
@@ -181,7 +181,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparison_index4_holdings",
+      "strategy_name": "Strategy_direct_comparision_index4_holdings",
       "filtering_type": "Breakout",
       "condition_type": "Reversal",
       "runtime": { "capital": 100000, "n_days": 3 },
@@ -191,7 +191,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparison_index4_holdings",
+      "strategy_name": "Strategy_direct_comparision_index4_holdings",
       "filtering_type": "Breakout",
       "condition_type": "Breakout",
       "runtime": { "capital": 100000, "n_days": 3 },
