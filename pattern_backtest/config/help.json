@@ -1,0 +1,2944 @@
+[
+  {
+    "config_id": "1",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "BearishGartley", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "2",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "BearishButterfly", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "3",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "BearishCrab", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "4",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "BearishCypher", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "5",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "DownwardReversalDay", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "7",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "engulfing2", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "7",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "engulfing1", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "8",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "IdenticalThreeCrows", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "9",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "ThreeBlackCrows", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "10",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "EveningStar", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "11",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "breakaway1", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "11",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "breakaway2", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "12",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "ThreeLineStrike", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "13",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "upside_tasuki_gap", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "13",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "downside_tasuki_gap", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "13",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "Bearish_Outside_After_Inside", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "14",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "BullishWRD_IC_BearishOC", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "15",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "MatchingLow", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "16",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "falling_three_methods1", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "16",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "falling_three_methods2", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "17",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "InvertedHammer", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "17",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "hammer", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "18",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "DownsideGapThree", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "18",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "upside_gap_three", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "19",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "concealing_baby_swallow_bear", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "20",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "IC_BearishWRD", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "21",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "BearishWRD_IC_BearishWRD", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "OutsideDay", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "22",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "outside_day_new", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "23",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "rsi", "params": { "n":10 } }
+    ],
+
+    "atr": { "n": 14 },
+    "rsi": { "n": 10 },
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "24",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "Stochastic", "params": { "n":10 } }
+    ],
+
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10 },
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "25",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } }
+    ],
+
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "26",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "MFI", "params": { "period": 14 } }
+    ],
+
+    "atr": { "n": 14 },
+    "MFI": { "period": 14  },
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "26",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "UO", "params": { } }
+    ],
+
+    "atr": { "n": 14 },
+    "UO": { },
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "27",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "william_percentage_R", "params": { "period": 14 } }
+    ],
+
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 14},
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "28",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "CCI", "params": { "period": 14 } }
+    ],
+
+    "atr": { "n": 14 },
+    "CCI": { "period": 14},
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "29",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "Acceleration_Oscillator", "params": {  } }
+    ],
+
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": { },
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "30",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "Awesome_Oscillator", "params": {  } }
+    ],
+
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": { },
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "31",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "Volume_Oscillator", "params": {  } }
+    ],
+
+    "atr": { "n": 14 },
+    "Volume_Oscillator": { },
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "32",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "OBV", "params": {  } }
+    ],
+
+    "atr": { "n": 14 },
+    "OBV": { },
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "33",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "AD", "params": {  } }
+    ],
+
+    "atr": { "n": 14 },
+    "AD": { },
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "34",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "Stochastic_Volume", "params": { "n": 14 } }
+    ],
+
+    "atr": { "n": 14 },
+    "Stochastic_Volume": {"n": 14 },
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "01",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "Thrusting", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "02",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "AbandonedBaby", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "03",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "ThreeLineStrike", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "04",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "TweezerBotton", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "05",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "ThreeWhiteSoldiers", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "06",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "ThreeStarsInSouth", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "07",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "MorningDojiStar", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "08",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "morning star1", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "08",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "morning_star2", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "09",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "ThreeOutsideUp", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "010",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "BullishGartley", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "011",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "BullishButterfly", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "012",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "BullishCrab", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "013",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "BullishCypher", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "014",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "UpwardReversalDay", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "016",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "Bullish_Outside_After_Inside", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "017",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "BearishWRD_IC_BullishOC", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "018",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "DojiStar", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "019",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "MatHold", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "020",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "Deliberation", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "021",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "RisingThreeMethodVersion1", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "022",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "RisingThreeMethodVersion2", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "023",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "separating_lines_bull", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "023",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "separating_lines_bear", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "024",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "SideBySideWhiteLines", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "025",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "UpsideTasukiGap", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "025",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "downside_tasuki_gap", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "026",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "IC_BullishWRD", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "BullishWRD_IC_BullishWRD", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "z_consecutive_close_with_x_sma_bull", "params": {"period":3, "maPeriod":20 } }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "z_consecutive_close_with_x_ema_bull", "params": {"period":3, "maPeriod":20 } }
+    ],
+
+    "atr": { "n": 14 },
+    "ema": {"n":20},
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "x_up_close", "params": {"period":5 } }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "Close_High1", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "crossOverMA1", "params": {"fastperiod":20, "slowperiod":50} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "high_and_close_condition2", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "close_prior_close_and_avg_high_condition2", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "close_and_prev_low_condition", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "close_high_closing_Avg_Conditionlow", "params": {"period":40} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "two_red_candles_condition", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "avg_midpoint_condition1", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "days_2_5_conditon2", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "moving_avg_conditionup", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "three_bar_congestion_bull", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "fractal_breakout_up", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "adx_with_x_avg_bull", "params": {"X":20, "Y":8} }
+    ],
+
+    "atr": { "n": 14 },
+    "adx": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "bull_gap", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "avg_range_conditionsmaller", "params": {"period":10} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "avg_range_conditiongreater", "params": {"period":10} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "z_consecutive_close_with_x_sma_down", "params": {"period":3, "maPeriod":20 } }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "z_consecutive_close_with_x_ema_down", "params": {"period":3, "maPeriod":20 } }
+    ],
+
+    "atr": { "n": 14 },
+    "ema": {"n":20},
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "x_down_close", "params": {"period":5 } }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "Close_High2", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "crossOverMA2", "params": {"fastperiod":20, "slowperiod":50} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "high_and_close_condition1", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "close_prior_close_and_avg_low_condition1", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "close_and_prev_high_condition", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "close_high_closing_Avg_Conditionhigh", "params": {"period":40} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "two_green_candles_condition", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "avg_midpoint_condition2", "params": {"period":20} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "days_2_5_conditon1", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "moving_avg_conditiondown", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "three_bar_congestion_bear", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "fractal_breakout_down", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "adx_with_x_avg_bear", "params": {"X":20, "Y":8} }
+    ],
+
+    "atr": { "n": 14 },
+    "adx": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "bear_gap", "params": {} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "avg_range_conditionsmaller", "params": {"period":10} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "avg_range_conditiongreater", "params": {"period":10} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "high_low_Condition1", "params": {"period":10} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "bullish_wrd_ic_bearish_oc", "params": {"period":10} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "spike_high", "params": {"period":10} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "027",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "spike_low", "params": {"period":10} }
+    ],
+
+    "atr": { "n": 14 },
+
+    "divergence": false,
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "028",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "rsi", "params": { "n":10 } }
+    ],
+
+    "atr": { "n": 14 },
+    "rsi": { "n": 10 },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "029",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "Stochastic", "params": { "n":10 } }
+    ],
+
+    "atr": { "n": 14 },
+    "Stochastic": { "n": 10 },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "030",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "CRSI", "params": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 } }
+    ],
+
+    "atr": { "n": 14 },
+    "CRSI": { "rsiLength": 4, "updownLength": 2, "rocLength": 2 },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "031",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "MFI", "params": { "period": 14 } }
+    ],
+
+    "atr": { "n": 14 },
+    "MFI": { "period": 14  },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "032",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "UO", "params": { } }
+    ],
+
+    "atr": { "n": 14 },
+    "UO": { },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "034",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "william_percentage_R", "params": { "period": 14 } }
+    ],
+
+    "atr": { "n": 14 },
+    "william_percentage_R": { "period": 14},
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "035",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "CCI", "params": { "period": 14 } }
+    ],
+
+    "atr": { "n": 14 },
+    "CCI": { "period": 14},
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "036",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "Acceleration_Oscillator", "params": {  } }
+    ],
+
+    "atr": { "n": 14 },
+    "Acceleration_Oscillator": { },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "037",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "Awesome_Oscillator", "params": {  } }
+    ],
+
+    "atr": { "n": 14 },
+    "Awesome_Oscillator": { },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "038",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "Volume_Oscillator", "params": {  } }
+    ],
+
+    "atr": { "n": 14 },
+    "Volume_Oscillator": { },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "039",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "OBV", "params": {  } }
+    ],
+
+    "atr": { "n": 14 },
+    "OBV": { },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "040",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "AD", "params": {  } }
+    ],
+
+    "atr": { "n": 14 },
+    "AD": { },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "Stochastic_Volume", "params": { "n": 14 } }
+    ],
+
+    "atr": { "n": 14 },
+    "Stochastic_Volume": {"n": 14 },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "bearish_up_v1", "params": { "n": 14 } }
+    ],
+
+    "atr": { "n": 14 },
+    "ultimate_pattern_param": {"n":2},
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "bearish_up_v2", "params": { "n": 14 } }
+    ],
+
+    "atr": { "n": 14 },
+    "ultimate_pattern_param": {"n":2},
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "double_top", "params": { "n": 14 } }
+    ],
+
+    "atr": { "n": 14 },
+    "ultimate_pattern_param": {"n":2},
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "double_bottom", "params": { "n": 14 } }
+    ],
+
+    "ultimate_pattern_param": {"n":2},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "bullish_up_v1", "params": { "n": 14 } }
+    ],
+
+    "ultimate_pattern_param": {"n":2},
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "bullish_up_v2", "params": { "n": 14 } }
+    ],
+
+    "ultimate_pattern_param": {"n":2},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "volume_oscillator_condition", "params": {} }
+    ],
+
+    "volume_oscillator": {},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "volume_oscillator_condition_opposite", "params": {} }
+    ],
+
+    "volume_oscillator": {},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "stochastic_volume_condition_opposite", "params": {"n":14} }
+    ],
+
+    "stochastic_volume": {"n":14},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "stochastic_volume_condition", "params": {"n":14} }
+    ],
+
+    "stochastic_volume": {"n":14},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "rsi_condition", "params": {"n":14} }
+    ],
+
+    "rsi": {"n":14},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "rsi_condition_opposite", "params": {"n":14} }
+    ],
+
+    "rsi": {"n":14},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "crsi_condition_opposite", "params": {"rsiLength":10, "updownLength":3, "rocLength":100} }
+    ],
+
+    "crsi": {"rsiLength":10, "updownLength":3, "rocLength":100},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "crsi_condition", "params": {"rsiLength":10, "updownLength":3, "rocLength":100} }
+    ],
+
+    "crsi": {"rsiLength":10, "updownLength":3, "rocLength":100},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "mfi_condition", "params": {"period":14} }
+    ],
+
+    "mfi": {"period":14},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "mfi_condition_opposite", "params": {"period":14} }
+    ],
+
+    "mfi": {"period":14},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "william_percentage_condition_opposite", "params": {"period":14} }
+    ],
+
+    "william_percentage_R": {"period":14},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "william_percentage_condition", "params": {"period":14} }
+    ],
+
+    "william_percentage_R": {"period":14},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "stochastic_condition_opposite", "params": {"n":14} }
+    ],
+
+    "stochastic": {"n":14},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "stochastic_condition", "params": {"n":14} }
+    ],
+
+    "stochastic": {"n":14},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "uo_condition", "params": {} }
+    ],
+
+    "ultimate_oscilator": {},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "uo_condition_opposite", "params": {} }
+    ],
+
+    "ultimate_oscilator": {},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "red_green_zone_condition2", "params": {} }
+    ],
+
+    "awesome_oscillator": {},
+    "acceleration_oscillator": {},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "red_green_zone_condition1", "params": {} }
+    ],
+
+    "awesome_oscillator": {},
+    "acceleration_oscillator": {},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "mom1", "params": {} }
+    ],
+
+    "acceleration_oscillator": {},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "mom2", "params": {} }
+    ],
+    
+    "acceleration_oscillator": {},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "acceleration_oscillator_condition2", "params": {} }
+    ],
+    
+    "acceleration_oscillator": {},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "acceleration_oscillator_condition1", "params": {} }
+    ],
+    
+    "acceleration_oscillator": {},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "ADX_EMA2", "params": {} }
+    ],
+    
+    "adx": {"n": 14},
+    "ema": {"period":20},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": false,
+    "bearish": true,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "ADX_EMA1", "params": {} }
+    ],
+    
+    "adx": {"n": 14},
+    "ema": {"period":20},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "obv_condition", "params": {} }
+    ],
+    
+    "obv": {},
+    "ema": {"period":20},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  },
+  {
+    "config_id": "041",
+    "strategy":"strategy_single_indicator",
+    "symbol":"HDFC BANK",
+    "timeframe": "15min",
+    "bar_count":100000,
+    "conditions": [
+      { "name": "ad_condition", "params": {} }
+    ],
+    
+    "accumulation_distribution": {},
+    "ema": {"period":20},
+
+    "atr": { "n": 14 },
+
+    "divergence":true, 
+    "bullish": true,
+    "bearish": false,
+    "exit1": false,
+    "exit2": true
+  }
+ 
+ 
+] 
+  
