@@ -1,0 +1,371 @@
+{
+    "BearishGartley": {},
+    "BearishButterfly": {},
+    "BearishCrab": {},
+    "BearishCypher": {},
+    "DownwardReversalDay": {},
+    "engulfing2": {},
+    "engulfing1": {},
+    "IdenticalThreeCrows": {},
+    "ThreeBlackCrows": {},
+    "EveningStar": {},
+    "breakaway1": {},
+    "breakaway2": {},
+    "ThreeLineStrike": {},
+    "upside_tasuki_gap": {},
+    "downside_tasuki_gap": {},
+    "Bearish_Outside_After_Inside": {},
+    "BullishWRD_IC_BearishOC": {},
+    "MatchingLow": {},
+    "falling_three_methods1": {},
+    "falling_three_methods2": {},
+    "InvertedHammer": {},
+    "hammer": {},
+    "DownsideGapThree": {},
+    "upside_gap_three": {},
+    "concealing_baby_swallow_bear": {},
+    "IC_BearishWRD": {},
+    "BearishWRD_IC_BearishWRD": {},
+    "OutsideDay": {},
+    "outside_day_new": {},
+    "rsi": {
+        "n": 14
+    },
+    "Stochastic": {
+        "n": 14
+    },
+    "CRSI": {
+        "rsiLength": 3,
+        "updownLength": 2,
+        "rocLength": 100
+    },
+    "MFI": {
+        "period": 14
+    },
+    "UO": {},
+    "william_percentage_R": {
+        "period": 14
+    },
+    "CCI": {
+        "period": 18
+    },
+    "Acceleration_Oscillator": {},
+    "Awesome_Oscillator": {},
+    "Volume_Oscillator": {},
+    "OBV": {},
+    "AD": {},
+    "Stochastic_Volume": {
+        "n": 14
+    },
+    "Thrusting": {},
+    "AbandonedBaby": {},
+    "TweezerBotton": {},
+    "ThreeWhiteSoldiers": {},
+    "ThreeStarsInSouth": {},
+    "MorningDojiStar": {},
+    "morning star1": {},
+    "morning_star2": {},
+    "ThreeOutsideUp": {},
+    "BullishGartley": {},
+    "BullishButterfly": {},
+    "BullishCrab": {},
+    "BullishCypher": {},
+    "UpwardReversalDay": {},
+    "Bullish_Outside_After_Inside": {},
+    "BearishWRD_IC_BullishOC": {},
+    "DojiStar": {},
+    "MatHold": {},
+    "Deliberation": {},
+    "RisingThreeMethodVersion1": {},
+    "RisingThreeMethodVersion2": {},
+    "separating_lines_bull": {},
+    "separating_lines_bear": {},
+    "SideBySideWhiteLines": {},
+    "UpsideTasukiGap": {},
+    "IC_BullishWRD": {},
+    "BullishWRD_IC_BullishWRD": {},
+    "z_consecutive_close_with_x_sma_bull": {
+        "period": 3,
+        "maPeriod": 20
+    },
+    "z_consecutive_close_with_x_ema_bull": {
+        "period": 3,
+        "maPeriod": 20
+    },
+    "x_up_close": {
+        "period": 5
+    },
+    "Close_High1": {},
+    "crossOverMA1": {
+        "fastPeriod": 20,
+        "slowPeriod": 50
+    },
+    "high_and_close_condition2": {},
+    "close_prior_close_and_avg_high_condition2": {},
+    "close_and_prev_low_condition": {},
+    "close_high_closing_Avg_Conditionlow": {
+        "period": 40
+    },
+    "two_red_candles_condition": {},
+    "avg_midpoint_condition1": { "period": 40 },
+    "days_2_5_conditon2": {},
+    "moving_avg_conditionup": {},
+    "three_bar_congestion_bull": {},
+    "fractal_breakout_up": {},
+    "adx_with_x_avg_bull": {
+        "X": 20,
+        "Y": 10
+    },
+    "bull_gap": {},
+    "avg_range_conditionsmaller": {
+        "period": 10
+    },
+    "avg_range_conditiongreater": {
+        "period": 10
+    },
+    "z_consecutive_close_with_x_sma_down": {
+        "period": 3,
+        "maPeriod": 20
+    },
+    "z_consecutive_close_with_x_ema_down": {
+        "period": 3,
+        "maPeriod": 20
+    },
+    "x_down_close": {
+        "period": 5
+    },
+    "Close_High2": {},
+    "crossOverMA2": {
+        "fastPeriod": 20,
+        "slowPeriod": 50
+    },
+    "high_and_close_condition1": {},
+    "close_prior_close_and_avg_low_condition1": {},
+    "close_and_prev_high_condition": {},
+    "close_high_closing_Avg_Conditionhigh": {
+        "period": 40
+    },
+    "two_green_candles_condition": {},
+    "avg_midpoint_condition2": {
+        "period": 40
+    },
+    "days_2_5_conditon1": {},
+    "moving_avg_conditiondown": {},
+    "three_bar_congestion_bear": {},
+    "fractal_breakout_down": {},
+    "adx_with_x_avg_bear": {
+        "X": 20,
+        "Y": 10
+    },
+    "bear_gap": {},
+    "high_low_Condition1": {
+        "period": 20
+    },
+    "bullish_wrd_ic_bearish_oc": {},
+    "spike_high": {
+        "n":14,
+         "k":0.5
+    },
+    "spike_low": {
+        "n":14,
+         "k":0.5
+    },
+    "bearish_up_v1": {},
+    "bearish_up_v2": {},
+    "double_top": {
+        "x": 0.5,
+        "n": 2
+    },
+    "double_bottom": {
+        "x": 0.5,
+        "n": 2
+    },
+    "bullish_up_v1": {},
+    "bullish_up_v2": {},
+    "red_green_zone_condition2": {},
+    "red_green_zone_condition1": {},
+    "mom1": {},
+    "mom2": {},
+    "acceleration_oscillator_condition2": {},
+    "acceleration_oscillator_condition1": {},
+    "ADX_EMA2": {
+        "period": 14
+    },
+    "ADX_EMA1": {
+        "period": 14
+    },
+    "obv_condition": {},
+    "ad_condition": {},
+    "RSI_Condition_opposite": {
+        "n": 14
+    },
+    "OBV_condition": {
+        "n": 20
+    },
+    "AD_condition": {
+        "n": 20
+    },
+    "RSI_Condition": {
+        "n": 14
+    },
+    "MFI_condition_opposite": {
+        "n": 14
+    },
+    "MFI_condition": {
+        "n": 14
+    },
+    "Stochastic_condition_opposite": {
+        "n": 14
+    },
+    "Stochastic_condition": {
+        "n": 14
+    },
+    "CRSI_condition_opposite": {
+        "rsiLength": 3,
+        "updownLength": 2,
+        "rocLength": 100
+    },
+    "CRSI_condition": {
+        "rsiLength": 3,
+        "updownLength": 2,
+        "rocLength": 100
+    },
+    "william_percentage_condition": {
+        "period": 14
+    },
+    "william_percentage_condition_opposite": {
+        "period": 14
+    },
+    "UO_condition_opposite": {},
+    "UO_condition": {},
+    "Red_Green_Zone_Condition1": {},
+    "Red_Green_Zone_Condition2": {},
+    "MOM1": {},
+    "MOM2": {},
+    "Acceleration_Oscillator_Condition2": {},
+    "Acceleration_Oscillator_Condition1": {},
+    "OBV_Condition": {
+        "n": 20
+    },
+    "AD_Condition": {
+        "n": 20
+    },
+    "Volume_Oscillator_condition": {},
+    "volume_oscillator_condition": {},
+    "Volume_Oscillator_condition_opposite": {},
+    "volume_oscillator_condition_opposite": {},
+    "Stochastic_Volume_condition": {},
+    "Stochastic_volume_condition": {},
+    "stochastic_volume_condition": {},
+    "Stochastic_Volume_condition_opposite": {},
+    "Stochastic_volume_condition_opposite": {},
+    "stochastic_volume_condition_opposite": {},
+
+    "morning_star1": {},
+    "fractalBreakoutup": {},
+    "Bull_Gap": {},
+    "Days_2_5_Conditon2": {},
+    "two_red_candles_Condition": {},
+    "close_and_prev_low_Condition": {},
+    "close_prior_close_and_avg_high_Condition2": {},
+    "high_and_close_Condition2": {},
+    "bollinger_band_inside_keltner": {
+        "period": 20,
+        "coeff": 2
+    },
+    "Z_consecutiveCloseWithX_SMAbull": {
+        "period": 3,
+        "maPeriod": 20
+    },
+    "Trix_range": {
+        "period": 14
+    },
+    "XupClose": {
+        "period": 5
+    },
+    "adxWithX_avgbull": {
+        "X": 20,
+        "Y": 10
+    },
+    "Moving_Avg_Conditionup": {
+        "period": 20
+    },
+    "avg_midpoint_Condition1": {
+        "period": 40
+    },
+    "avg_range_Conditiongreater": {
+        "period": 10
+    },
+    "avg_range_Conditionsmaller": {
+        "period": 10
+    },
+    "high_low_Condition2": {
+        "period": 20
+    },
+    "Ravi_above_cutoff_Price_above_fractal": {
+        "cutoff": 40
+    },
+    "Choppiness_Index_below_50": {
+        "period": 14
+    },
+    "Three_Bar_Congestion": {},
+    "BearishKeyReversal": {},
+    "fractalBreakoutdown": {},
+    "Bear_Gap": {},
+    "Days_2_5_Conditon1": {},
+    "two_green_candles_Condition": {},
+    "close_and_prev_high_Condition": {},
+    "close_prior_close_and_avg_high_Condition1": {},
+    "high_and_close_Condition1": {},
+    "Z_consecutiveCloseWithX_SMAdown": {
+        "period": 3,
+        "maPeriod": 20
+    },
+    "XDownClose": {
+        "period": 5
+    },
+    "adxWithX_avgbear": {
+        "X": 20,
+        "Y": 10
+    },
+    "Moving_Avg_Conditiondown": {
+        "period": 20
+    },
+    "avg_midpoint_Condition2": {
+        "period": 40
+    },
+    "Ravi_above_cutoff_Price_below_fractal": {
+        "cutoff": 40
+    },
+    "UO__condition_opposite": {},
+    "UO__condition": {},
+    "RSI_condition_opposite": {
+        "n": 14
+    },
+    "RSI_condition": {
+        "n": 14
+    },
+    "rsi_condition": {
+        "n": 14
+    },
+    "Stochastic_Condition": {
+        "n": 14
+    },
+    "XdownClose": {
+        "period": 5
+    },
+    "Engulfing": {},
+    "Breakaway": {},
+    "FallingThreeMethods": {},
+    "ConcealingBabySwallow": {},
+    "Stochastic_volume": {
+        "n": 14
+    },
+    "Volume_oscillator": {},
+    "BullishKeyReversal": {},
+    "Volume_oscillator_condition_opposite": {},
+    "Volume_oscillator_condition": {},
+    "Stochastic_Volume ": {
+        "n": 14
+    }
+}

@@ -1,0 +1,898 @@
+[
+  {
+    "config_id": 0,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "rsi_condition_opposite",
+        "params": {
+          "n": 14
+        }
+      },
+      {
+        "name": "obv_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 1,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "rsi_condition_opposite",
+        "params": {
+          "n": 14
+        }
+      },
+      {
+        "name": "ad_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 2,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "rsi_condition",
+        "params": {
+          "n": 14
+        }
+      },
+      {
+        "name": "obv_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 3,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "rsi_condition",
+        "params": {
+          "n": 14
+        }
+      },
+      {
+        "name": "ad_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 4,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "mfi_condition_opposite",
+        "params": {
+          "n": 14
+        }
+      },
+      {
+        "name": "obv_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 5,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "mfi_condition_opposite",
+        "params": {
+          "n": 14
+        }
+      },
+      {
+        "name": "ad_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 6,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "mfi_condition",
+        "params": {
+          "n": 14
+        }
+      },
+      {
+        "name": "obv_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 7,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "mfi_condition",
+        "params": {
+          "n": 14
+        }
+      },
+      {
+        "name": "ad_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 8,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "stochastic_condition_opposite",
+        "params": {
+          "n": 14
+        }
+      },
+      {
+        "name": "obv_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 9,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "stochastic_condition_opposite",
+        "params": {
+          "n": 14
+        }
+      },
+      {
+        "name": "ad_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 10,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "stochastic_condition",
+        "params": {
+          "n": 14
+        }
+      },
+      {
+        "name": "obv_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 11,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "stochastic_condition",
+        "params": {
+          "n": 14
+        }
+      },
+      {
+        "name": "ad_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 12,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "crsi_condition_opposite",
+        "params": {
+          "rsiLength": 3,
+          "updownLength": 2,
+          "rocLength": 100
+        }
+      },
+      {
+        "name": "obv_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 13,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "crsi_condition_opposite",
+        "params": {
+          "rsiLength": 3,
+          "updownLength": 2,
+          "rocLength": 100
+        }
+      },
+      {
+        "name": "ad_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 14,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "crsi_condition",
+        "params": {
+          "rsiLength": 3,
+          "updownLength": 2,
+          "rocLength": 100
+        }
+      },
+      {
+        "name": "obv_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 15,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "crsi_condition",
+        "params": {
+          "rsiLength": 3,
+          "updownLength": 2,
+          "rocLength": 100
+        }
+      },
+      {
+        "name": "ad_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 16,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "william_percentage_condition",
+        "params": {
+          "period": 14
+        }
+      },
+      {
+        "name": "obv_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 17,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "william_percentage_condition",
+        "params": {
+          "period": 14
+        }
+      },
+      {
+        "name": "ad_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 18,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "william_percentage_condition_opposite",
+        "params": {
+          "period": 14
+        }
+      },
+      {
+        "name": "obv_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 19,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "william_percentage_condition_opposite",
+        "params": {
+          "period": 14
+        }
+      },
+      {
+        "name": "ad_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 20,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "uo_condition_opposite",
+        "params": {}
+      },
+      {
+        "name": "obv_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 21,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "uo_condition_opposite",
+        "params": {}
+      },
+      {
+        "name": "ad_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 22,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "uo_condition",
+        "params": {}
+      },
+      {
+        "name": "obv_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 23,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "uo_condition",
+        "params": {}
+      },
+      {
+        "name": "ad_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 24,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "ADX_EMA1",
+        "params": {
+          "period": 14
+        }
+      },
+      {
+        "name": "obv_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 25,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "ADX_EMA1",
+        "params": {
+          "period": 14
+        }
+      },
+      {
+        "name": "ad_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 26,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "ADX_EMA2",
+        "params": {
+          "period": 14
+        }
+      },
+      {
+        "name": "obv_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 27,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "ADX_EMA2",
+        "params": {
+          "period": 14
+        }
+      },
+      {
+        "name": "ad_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 28,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "red_green_zone_condition1",
+        "params": {}
+      },
+      {
+        "name": "obv_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 29,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "red_green_zone_condition1",
+        "params": {}
+      },
+      {
+        "name": "ad_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 30,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "red_green_zone_condition2",
+        "params": {}
+      },
+      {
+        "name": "obv_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 31,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "red_green_zone_condition2",
+        "params": {}
+      },
+      {
+        "name": "ad_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 32,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "mom1",
+        "params": {}
+      },
+      {
+        "name": "obv_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 33,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "mom1",
+        "params": {}
+      },
+      {
+        "name": "ad_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 34,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "mom2",
+        "params": {}
+      },
+      {
+        "name": "obv_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 35,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "mom2",
+        "params": {}
+      },
+      {
+        "name": "ad_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 36,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "acceleration_oscillator_condition2",
+        "params": {}
+      },
+      {
+        "name": "obv_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 37,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "acceleration_oscillator_condition2",
+        "params": {}
+      },
+      {
+        "name": "ad_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 38,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "acceleration_oscillator_condition1",
+        "params": {}
+      },
+      {
+        "name": "obv_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  },
+  {
+    "config_id": 39,
+    "strategy": "strategy_crossover_plus_momentum_value",
+    "symbol": "HDFC BANK",
+    "timeframe": "15min",
+    "bar_count": -1,
+    "conditions": [
+      {
+        "name": "acceleration_oscillator_condition1",
+        "params": {}
+      },
+      {
+        "name": "ad_condition",
+        "params": {
+          "n": 20
+        }
+      }
+    ],
+    "exit1": true,
+    "exit2": false
+  }
+]
