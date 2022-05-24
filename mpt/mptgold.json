@@ -441,46 +441,6 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_relative_comparision_combined_index3_holdings_br",
-      "filtering_type": "Reversal",
-      "condition_type": "Breakout",
-      "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
-      "strategy_name": "Strategy_relative_comparision_combined_index4_holdings_br",
-      "filtering_type": "Breakout",
-      "condition_type": "Reversal",
-      "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
-      "strategy_name": "Strategy_relative_comparision_combined_index4_holdings_br",
-      "filtering_type": "Reversal",
-      "condition_type": "Breakout",
-      "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
-      "strategy_name": "Strategy_relative_comparision_combined_index3_holdings_br",
-      "filtering_type": "Breakout",
-      "condition_type": "Reversal",
-      "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
       "strategy_name": "Strategy_relative_comparision_combined_index3_holdings_br_gold",
       "filtering_type": "Reversal",
       "condition_type": "Breakout",
@@ -525,7 +485,7 @@
       "filtering_type": "Reversal",
       "condition_type": "Reversal",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -535,7 +495,7 @@
       "filtering_type": "Reversal",
       "condition_type": "Breakout",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -545,7 +505,7 @@
       "filtering_type": "Breakout",
       "condition_type": "Reversal",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -555,7 +515,7 @@
       "filtering_type": "Breakout",
       "condition_type": "Breakout",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -565,7 +525,7 @@
       "filtering_type": "Reversal",
       "condition_type": "Reversal",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -575,7 +535,7 @@
       "filtering_type": "Reversal",
       "condition_type": "Breakout",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -585,7 +545,7 @@
       "filtering_type": "Breakout",
       "condition_type": "Reversal",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -595,7 +555,7 @@
       "filtering_type": "Breakout",
       "condition_type": "Breakout",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -605,7 +565,7 @@
       "filtering_type": "Reversal",
       "condition_type": "Reversal",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -615,7 +575,7 @@
       "filtering_type": "Reversal",
       "condition_type": "Breakout",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -625,7 +585,7 @@
       "filtering_type": "Breakout",
       "condition_type": "Reversal",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -635,7 +595,7 @@
       "filtering_type": "Breakout",
       "condition_type": "Breakout",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -645,7 +605,7 @@
       "filtering_type": "Reversal",
       "condition_type": "Reversal",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -655,7 +615,7 @@
       "filtering_type": "Reversal",
       "condition_type": "Breakout",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -665,7 +625,7 @@
       "filtering_type": "Breakout",
       "condition_type": "Reversal",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -675,7 +635,7 @@
       "filtering_type": "Breakout",
       "condition_type": "Breakout",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -685,7 +645,7 @@
       "filtering_type": "Reversal",
       "condition_type": "Reversal",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -695,7 +655,7 @@
       "filtering_type": "Reversal",
       "condition_type": "Breakout",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -705,7 +665,7 @@
       "filtering_type": "Breakout",
       "condition_type": "Reversal",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -715,7 +675,7 @@
       "filtering_type": "Breakout",
       "condition_type": "Breakout",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -725,7 +685,7 @@
       "filtering_type": "Breakout",
       "condition_type": "Reversal",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -735,7 +695,7 @@
       "filtering_type": "Reversal",
       "condition_type": "Breakout",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -745,7 +705,7 @@
       "filtering_type": "Breakout",
       "condition_type": "Reversal",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -755,7 +715,7 @@
       "filtering_type": "Reversal",
       "condition_type": "Breakout",
       "runtime": { "capital": 100000, "n_days": 3 },
-      "exchange_type": "stock_gold_index"
+      "exchange_type": "stock"
     },
     "bar_count": 2843
   },
@@ -765,7 +725,7 @@
         "filtering_type": "Reversal",
         "condition_type": "Reversal",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     },
@@ -775,7 +735,7 @@
         "filtering_type": "Reversal",
         "condition_type": "Breakout",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     },
@@ -785,7 +745,7 @@
         "filtering_type": "Breakout",
         "condition_type": "Reversal",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     },
@@ -795,7 +755,7 @@
         "filtering_type": "Breakout",
         "condition_type": "Breakout",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     },
@@ -805,7 +765,7 @@
         "filtering_type": "Reversal",
         "condition_type": "Reversal",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     },
@@ -815,7 +775,7 @@
         "filtering_type": "Reversal",
         "condition_type": "Breakout",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     },
@@ -825,7 +785,7 @@
         "filtering_type": "Breakout",
         "condition_type": "Reversal",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     },
@@ -835,7 +795,7 @@
         "filtering_type": "Breakout",
         "condition_type": "Breakout",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     },
@@ -845,7 +805,7 @@
         "filtering_type": "Reversal",
         "condition_type": "Reversal",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     },
@@ -855,7 +815,7 @@
         "filtering_type": "Reversal",
         "condition_type": "Breakout",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     },
@@ -865,7 +825,7 @@
         "filtering_type": "Breakout",
         "condition_type": "Reversal",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     },
@@ -875,7 +835,7 @@
         "filtering_type": "Breakout",
         "condition_type": "Breakout",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     },
@@ -885,7 +845,7 @@
         "filtering_type": "Breakout",
         "condition_type": "Reversal",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     },
@@ -895,7 +855,7 @@
         "filtering_type": "Reversal",
         "condition_type": "Breakout",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     },
@@ -905,7 +865,7 @@
         "filtering_type": "Breakout",
         "condition_type": "Reversal",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     },
@@ -915,7 +875,7 @@
         "filtering_type": "Reversal",
         "condition_type": "Breakout",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     },
@@ -925,7 +885,7 @@
         "filtering_type": "Breakout",
         "condition_type": "Reversal",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     },
@@ -935,7 +895,7 @@
         "filtering_type": "Reversal",
         "condition_type": "Breakout",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     },
@@ -945,7 +905,7 @@
         "filtering_type": "Breakout",
         "condition_type": "Reversal",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     },
@@ -955,7 +915,7 @@
         "filtering_type": "Reversal",
         "condition_type": "Breakout",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     },
@@ -965,7 +925,7 @@
         "filtering_type": "Reversal",
         "condition_type": "Breakout",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     },
@@ -975,7 +935,7 @@
         "filtering_type": "Breakout",
         "condition_type": "Reversal",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     },
@@ -985,7 +945,7 @@
         "filtering_type": "Reversal",
         "condition_type": "Breakout",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     },
@@ -995,7 +955,7 @@
         "filtering_type": "Breakout",
         "condition_type": "Reversal",
         "runtime": { "capital": 100000, "n_days": 3 },
-        "exchange_type": "stock_gold_index"
+        "exchange_type": "stock"
       },
       "bar_count": 2843
     }, 
