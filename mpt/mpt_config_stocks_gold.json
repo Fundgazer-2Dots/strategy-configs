@@ -1,7 +1,7 @@
 [
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparision_Index3",
+      "strategy_name": "Strategy_direct_comparision_index3",
       "filtering_type": "Reversal",
       "condition_type": "Reversal",
       "runtime": {
@@ -14,59 +14,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparision_Index3",
-      "filtering_type": "Reversal",
-      "condition_type": "Breakout",
-      "runtime": {
-        "capital": 100000,
-        "n_days": 3
-      },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
-      "strategy_name": "Strategy_direct_comparision_Index3",
-      "filtering_type": "Breakout",
-      "condition_type": "Reversal",
-      "runtime": {
-        "capital": 100000,
-        "n_days": 3
-      },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
-      "strategy_name": "Strategy_direct_comparision_Index3",
-      "filtering_type": "Breakout",
-      "condition_type": "Breakout",
-      "runtime": {
-        "capital": 100000,
-        "n_days": 3
-      },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
-      "strategy_name": "Strategy_direct_comparision_Index4",
-      "filtering_type": "Reversal",
-      "condition_type": "Reversal",
-      "runtime": {
-        "capital": 100000,
-        "n_days": 3
-      },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
-      "strategy_name": "Strategy_direct_comparision_Index4",
+      "strategy_name": "Strategy_direct_comparision_index3",
       "filtering_type": "Reversal",
       "condition_type": "Breakout",
       "runtime": {
@@ -79,7 +27,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparision_Index4",
+      "strategy_name": "Strategy_direct_comparision_index3",
       "filtering_type": "Breakout",
       "condition_type": "Reversal",
       "runtime": {
@@ -92,7 +40,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparision_Index4",
+      "strategy_name": "Strategy_direct_comparision_index3",
       "filtering_type": "Breakout",
       "condition_type": "Breakout",
       "runtime": {
@@ -105,7 +53,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparision_Index3_holdings",
+      "strategy_name": "Strategy_direct_comparision_index4",
       "filtering_type": "Reversal",
       "condition_type": "Reversal",
       "runtime": {
@@ -118,7 +66,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparision_Index3_holdings",
+      "strategy_name": "Strategy_direct_comparision_index4",
       "filtering_type": "Reversal",
       "condition_type": "Breakout",
       "runtime": {
@@ -131,7 +79,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparision_Index3_holdings",
+      "strategy_name": "Strategy_direct_comparision_index4",
       "filtering_type": "Breakout",
       "condition_type": "Reversal",
       "runtime": {
@@ -144,7 +92,59 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparision_Index3_holdings",
+      "strategy_name": "Strategy_direct_comparision_index4",
+      "filtering_type": "Breakout",
+      "condition_type": "Breakout",
+      "runtime": {
+        "capital": 100000,
+        "n_days": 3
+      },
+      "exchange_type": "stock"
+    },
+    "bar_count": 2843
+  },
+  {
+    "strategy": {
+      "strategy_name": "Strategy_direct_comparision_index3_holdings",
+      "filtering_type": "Reversal",
+      "condition_type": "Reversal",
+      "runtime": {
+        "capital": 100000,
+        "n_days": 3
+      },
+      "exchange_type": "stock"
+    },
+    "bar_count": 2843
+  },
+  {
+    "strategy": {
+      "strategy_name": "Strategy_direct_comparision_index3_holdings",
+      "filtering_type": "Reversal",
+      "condition_type": "Breakout",
+      "runtime": {
+        "capital": 100000,
+        "n_days": 3
+      },
+      "exchange_type": "stock"
+    },
+    "bar_count": 2843
+  },
+  {
+    "strategy": {
+      "strategy_name": "Strategy_direct_comparision_index3_holdings",
+      "filtering_type": "Breakout",
+      "condition_type": "Reversal",
+      "runtime": {
+        "capital": 100000,
+        "n_days": 3
+      },
+      "exchange_type": "stock"
+    },
+    "bar_count": 2843
+  },
+  {
+    "strategy": {
+      "strategy_name": "Strategy_direct_comparision_index3_holdings",
       "filtering_type": "Breakout",
       "condition_type": "Breakout",
       "runtime": {
@@ -469,7 +469,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparision_Index4_holdings",
+      "strategy_name": "Strategy_direct_comparision_index4_holdings",
       "filtering_type": "Reversal",
       "condition_type": "Reversal",
       "runtime": {
@@ -482,7 +482,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparision_Index4_holdings",
+      "strategy_name": "Strategy_direct_comparision_index4_holdings",
       "filtering_type": "Reversal",
       "condition_type": "Breakout",
       "runtime": {
@@ -495,7 +495,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparision_Index4_holdings",
+      "strategy_name": "Strategy_direct_comparision_index4_holdings",
       "filtering_type": "Breakout",
       "condition_type": "Reversal",
       "runtime": {
@@ -508,7 +508,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparision_Index4_holdings",
+      "strategy_name": "Strategy_direct_comparision_index4_holdings",
       "filtering_type": "Breakout",
       "condition_type": "Breakout",
       "runtime": {
