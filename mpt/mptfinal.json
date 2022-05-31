@@ -1,7 +1,7 @@
 [
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparison_index4_gold",
+      "strategy_name": "Strategy_direct_comparision_index4_gold",
       "filtering_type": "Reversal",
       "condition_type": "Reversal",
       "runtime": {
@@ -14,59 +14,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparison_index4_gold",
-      "filtering_type": "Reversal",
-      "condition_type": "Breakout",
-      "runtime": {
-        "capital": 100000,
-        "n_days": 3
-      },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
-      "strategy_name": "Strategy_direct_comparison_index4_gold",
-      "filtering_type": "Breakout",
-      "condition_type": "Reversal",
-      "runtime": {
-        "capital": 100000,
-        "n_days": 3
-      },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
-      "strategy_name": "Strategy_direct_comparison_index4_gold",
-      "filtering_type": "Breakout",
-      "condition_type": "Breakout",
-      "runtime": {
-        "capital": 100000,
-        "n_days": 3
-      },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
-      "strategy_name": "Strategy_direct_comparison_index3_holdings_gold",
-      "filtering_type": "Reversal",
-      "condition_type": "Reversal",
-      "runtime": {
-        "capital": 100000,
-        "n_days": 3
-      },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
-      "strategy_name": "Strategy_direct_comparison_index3_holdings_gold",
+      "strategy_name": "Strategy_direct_comparision_index4_gold",
       "filtering_type": "Reversal",
       "condition_type": "Breakout",
       "runtime": {
@@ -79,7 +27,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparison_index3_holdings_gold",
+      "strategy_name": "Strategy_direct_comparision_index4_gold",
       "filtering_type": "Breakout",
       "condition_type": "Reversal",
       "runtime": {
@@ -92,59 +40,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparison_index3_holdings_gold",
-      "filtering_type": "Breakout",
-      "condition_type": "Breakout",
-      "runtime": {
-        "capital": 100000,
-        "n_days": 3
-      },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
-      "strategy_name": "Strategy_relative_comparison_index3_gold",
-      "filtering_type": "Reversal",
-      "condition_type": "Reversal",
-      "runtime": {
-        "capital": 100000,
-        "n_days": 3
-      },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
-      "strategy_name": "Strategy_relative_comparison_index3_gold",
-      "filtering_type": "Reversal",
-      "condition_type": "Breakout",
-      "runtime": {
-        "capital": 100000,
-        "n_days": 3
-      },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
-      "strategy_name": "Strategy_relative_comparison_index3_gold",
-      "filtering_type": "Breakout",
-      "condition_type": "Reversal",
-      "runtime": {
-        "capital": 100000,
-        "n_days": 3
-      },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
-      "strategy_name": "Strategy_relative_comparison_index3_gold",
+      "strategy_name": "Strategy_direct_comparision_index4_gold",
       "filtering_type": "Breakout",
       "condition_type": "Breakout",
       "runtime": {
@@ -157,7 +53,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_relative_comparison_index4_gold",
+      "strategy_name": "Strategy_direct_comparision_index3_holdings_gold",
       "filtering_type": "Reversal",
       "condition_type": "Reversal",
       "runtime": {
@@ -170,59 +66,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_relative_comparison_index4_gold",
-      "filtering_type": "Reversal",
-      "condition_type": "Breakout",
-      "runtime": {
-        "capital": 100000,
-        "n_days": 3
-      },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
-      "strategy_name": "Strategy_relative_comparison_index4_gold",
-      "filtering_type": "Breakout",
-      "condition_type": "Reversal",
-      "runtime": {
-        "capital": 100000,
-        "n_days": 3
-      },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
-      "strategy_name": "Strategy_relative_comparison_index4_gold",
-      "filtering_type": "Breakout",
-      "condition_type": "Breakout",
-      "runtime": {
-        "capital": 100000,
-        "n_days": 3
-      },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
-      "strategy_name": "Strategy_relative_comparison_index3_holdings_gold",
-      "filtering_type": "Reversal",
-      "condition_type": "Reversal",
-      "runtime": {
-        "capital": 100000,
-        "n_days": 3
-      },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
-      "strategy_name": "Strategy_relative_comparison_index3_holdings_gold",
+      "strategy_name": "Strategy_direct_comparision_index3_holdings_gold",
       "filtering_type": "Reversal",
       "condition_type": "Breakout",
       "runtime": {
@@ -235,7 +79,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_relative_comparison_index3_holdings_gold",
+      "strategy_name": "Strategy_direct_comparision_index3_holdings_gold",
       "filtering_type": "Breakout",
       "condition_type": "Reversal",
       "runtime": {
@@ -248,59 +92,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_relative_comparison_index3_holdings_gold",
-      "filtering_type": "Breakout",
-      "condition_type": "Breakout",
-      "runtime": {
-        "capital": 100000,
-        "n_days": 3
-      },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
-      "strategy_name": "Strategy_relative_comparison_index4_holdings_gold",
-      "filtering_type": "Reversal",
-      "condition_type": "Reversal",
-      "runtime": {
-        "capital": 100000,
-        "n_days": 3
-      },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
-      "strategy_name": "Strategy_relative_comparison_index4_holdings_gold",
-      "filtering_type": "Reversal",
-      "condition_type": "Breakout",
-      "runtime": {
-        "capital": 100000,
-        "n_days": 3
-      },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
-      "strategy_name": "Strategy_relative_comparison_index4_holdings_gold",
-      "filtering_type": "Breakout",
-      "condition_type": "Reversal",
-      "runtime": {
-        "capital": 100000,
-        "n_days": 3
-      },
-      "exchange_type": "stock"
-    },
-    "bar_count": 2843
-  },
-  {
-    "strategy": {
-      "strategy_name": "Strategy_relative_comparison_index4_holdings_gold",
+      "strategy_name": "Strategy_direct_comparision_index3_holdings_gold",
       "filtering_type": "Breakout",
       "condition_type": "Breakout",
       "runtime": {
@@ -313,7 +105,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparison_index4_holdings_gold",
+      "strategy_name": "Strategy_relative_comparision_index3_gold",
       "filtering_type": "Reversal",
       "condition_type": "Reversal",
       "runtime": {
@@ -326,7 +118,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparison_index4_holdings_gold",
+      "strategy_name": "Strategy_relative_comparision_index3_gold",
       "filtering_type": "Reversal",
       "condition_type": "Breakout",
       "runtime": {
@@ -339,7 +131,7 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparison_index4_holdings_gold",
+      "strategy_name": "Strategy_relative_comparision_index3_gold",
       "filtering_type": "Breakout",
       "condition_type": "Reversal",
       "runtime": {
@@ -352,7 +144,215 @@
   },
   {
     "strategy": {
-      "strategy_name": "Strategy_direct_comparison_index4_holdings_gold",
+      "strategy_name": "Strategy_relative_comparision_index3_gold",
+      "filtering_type": "Breakout",
+      "condition_type": "Breakout",
+      "runtime": {
+        "capital": 100000,
+        "n_days": 3
+      },
+      "exchange_type": "stock"
+    },
+    "bar_count": 2843
+  },
+  {
+    "strategy": {
+      "strategy_name": "Strategy_relative_comparision_index4_gold",
+      "filtering_type": "Reversal",
+      "condition_type": "Reversal",
+      "runtime": {
+        "capital": 100000,
+        "n_days": 3
+      },
+      "exchange_type": "stock"
+    },
+    "bar_count": 2843
+  },
+  {
+    "strategy": {
+      "strategy_name": "Strategy_relative_comparision_index4_gold",
+      "filtering_type": "Reversal",
+      "condition_type": "Breakout",
+      "runtime": {
+        "capital": 100000,
+        "n_days": 3
+      },
+      "exchange_type": "stock"
+    },
+    "bar_count": 2843
+  },
+  {
+    "strategy": {
+      "strategy_name": "Strategy_relative_comparision_index4_gold",
+      "filtering_type": "Breakout",
+      "condition_type": "Reversal",
+      "runtime": {
+        "capital": 100000,
+        "n_days": 3
+      },
+      "exchange_type": "stock"
+    },
+    "bar_count": 2843
+  },
+  {
+    "strategy": {
+      "strategy_name": "Strategy_relative_comparision_index4_gold",
+      "filtering_type": "Breakout",
+      "condition_type": "Breakout",
+      "runtime": {
+        "capital": 100000,
+        "n_days": 3
+      },
+      "exchange_type": "stock"
+    },
+    "bar_count": 2843
+  },
+  {
+    "strategy": {
+      "strategy_name": "Strategy_relative_comparision_index3_holdings_gold",
+      "filtering_type": "Reversal",
+      "condition_type": "Reversal",
+      "runtime": {
+        "capital": 100000,
+        "n_days": 3
+      },
+      "exchange_type": "stock"
+    },
+    "bar_count": 2843
+  },
+  {
+    "strategy": {
+      "strategy_name": "Strategy_relative_comparision_index3_holdings_gold",
+      "filtering_type": "Reversal",
+      "condition_type": "Breakout",
+      "runtime": {
+        "capital": 100000,
+        "n_days": 3
+      },
+      "exchange_type": "stock"
+    },
+    "bar_count": 2843
+  },
+  {
+    "strategy": {
+      "strategy_name": "Strategy_relative_comparision_index3_holdings_gold",
+      "filtering_type": "Breakout",
+      "condition_type": "Reversal",
+      "runtime": {
+        "capital": 100000,
+        "n_days": 3
+      },
+      "exchange_type": "stock"
+    },
+    "bar_count": 2843
+  },
+  {
+    "strategy": {
+      "strategy_name": "Strategy_relative_comparision_index3_holdings_gold",
+      "filtering_type": "Breakout",
+      "condition_type": "Breakout",
+      "runtime": {
+        "capital": 100000,
+        "n_days": 3
+      },
+      "exchange_type": "stock"
+    },
+    "bar_count": 2843
+  },
+  {
+    "strategy": {
+      "strategy_name": "Strategy_relative_comparision_index4_holdings_gold",
+      "filtering_type": "Reversal",
+      "condition_type": "Reversal",
+      "runtime": {
+        "capital": 100000,
+        "n_days": 3
+      },
+      "exchange_type": "stock"
+    },
+    "bar_count": 2843
+  },
+  {
+    "strategy": {
+      "strategy_name": "Strategy_relative_comparision_index4_holdings_gold",
+      "filtering_type": "Reversal",
+      "condition_type": "Breakout",
+      "runtime": {
+        "capital": 100000,
+        "n_days": 3
+      },
+      "exchange_type": "stock"
+    },
+    "bar_count": 2843
+  },
+  {
+    "strategy": {
+      "strategy_name": "Strategy_relative_comparision_index4_holdings_gold",
+      "filtering_type": "Breakout",
+      "condition_type": "Reversal",
+      "runtime": {
+        "capital": 100000,
+        "n_days": 3
+      },
+      "exchange_type": "stock"
+    },
+    "bar_count": 2843
+  },
+  {
+    "strategy": {
+      "strategy_name": "Strategy_relative_comparision_index4_holdings_gold",
+      "filtering_type": "Breakout",
+      "condition_type": "Breakout",
+      "runtime": {
+        "capital": 100000,
+        "n_days": 3
+      },
+      "exchange_type": "stock"
+    },
+    "bar_count": 2843
+  },
+  {
+    "strategy": {
+      "strategy_name": "Strategy_direct_comparision_index4_holdings_gold",
+      "filtering_type": "Reversal",
+      "condition_type": "Reversal",
+      "runtime": {
+        "capital": 100000,
+        "n_days": 3
+      },
+      "exchange_type": "stock"
+    },
+    "bar_count": 2843
+  },
+  {
+    "strategy": {
+      "strategy_name": "Strategy_direct_comparision_index4_holdings_gold",
+      "filtering_type": "Reversal",
+      "condition_type": "Breakout",
+      "runtime": {
+        "capital": 100000,
+        "n_days": 3
+      },
+      "exchange_type": "stock"
+    },
+    "bar_count": 2843
+  },
+  {
+    "strategy": {
+      "strategy_name": "Strategy_direct_comparision_index4_holdings_gold",
+      "filtering_type": "Breakout",
+      "condition_type": "Reversal",
+      "runtime": {
+        "capital": 100000,
+        "n_days": 3
+      },
+      "exchange_type": "stock"
+    },
+    "bar_count": 2843
+  },
+  {
+    "strategy": {
+      "strategy_name": "Strategy_direct_comparision_index4_holdings_gold",
       "filtering_type": "Breakout",
       "condition_type": "Breakout",
       "runtime": {
