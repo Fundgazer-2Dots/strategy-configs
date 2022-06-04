@@ -1,0 +1,41 @@
+[
+  {
+    "strategy": {
+      "strategy_name": "Strategy_direct_comparision_combined_index4_br_gold_monkey_entry",
+      "filtering_type": "Breakout",
+      "condition_type": "Reversal",
+      "runtime": {
+        "capital": 100000,
+        "n_days": 3
+      },
+      "exchange_type": "stock"
+    },
+    "bar_count": 2843
+  },
+  {
+    "strategy": {
+      "strategy_name": "Strategy_direct_comparision_combined_index4_br_gold_monkey_exit",
+      "filtering_type": "Breakout",
+      "condition_type": "Reversal",
+      "runtime": {
+        "capital": 100000,
+        "n_days": 3
+      },
+      "exchange_type": "stock"
+    },
+    "bar_count": 2843
+  },
+  {
+    "strategy": {
+      "strategy_name": "Strategy_direct_comparision_combined_index4_br_gold_monkey_entry_exit",
+      "filtering_type": "Breakout",
+      "condition_type": "Reversal",
+      "runtime": {
+        "capital": 100000,
+        "n_days": 3
+      },
+      "exchange_type": "stock"
+    },
+    "bar_count": 2843
+  }
+]
