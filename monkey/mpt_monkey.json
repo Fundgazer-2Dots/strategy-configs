@@ -11,7 +11,8 @@
       "exchange_type": "stock",
       "index": "Index4"
     },
-    "bar_count": 2843
+    "bar_count": 2843,
+    "iterations": 20
   },
   {
     "strategy": {
@@ -25,7 +26,8 @@
       "exchange_type": "stock",
       "index": "Index4"
     },
-    "bar_count": 2843
+    "bar_count": 2843,
+    "iterations": 20
   },
   {
     "strategy": {
@@ -39,6 +41,7 @@
       "exchange_type": "stock",
       "index": "Index4"
     },
-    "bar_count": 2843
+    "bar_count": 2843,
+    "iterations": 20
   }
 ]
