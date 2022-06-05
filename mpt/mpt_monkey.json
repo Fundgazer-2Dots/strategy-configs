@@ -8,9 +8,10 @@
         "capital": 100000,
         "n_days": 3
       },
-      "exchange_type": "stock"
+      "exchange_type": "stock",
+      "index": "Index4"
     },
-    "bar_count": 2843
+    "bar_count": 500
   },
   {
     "strategy": {
@@ -21,9 +22,10 @@
         "capital": 100000,
         "n_days": 3
       },
-      "exchange_type": "stock"
+      "exchange_type": "stock",
+      "index": "Index4"
     },
-    "bar_count": 2843
+    "bar_count": 500
   },
   {
     "strategy": {
@@ -34,8 +36,9 @@
         "capital": 100000,
         "n_days": 3
       },
-      "exchange_type": "stock"
+      "exchange_type": "stock",
+      "index": "Index4"
     },
-    "bar_count": 2843
+    "bar_count": 500
   }
 ]
