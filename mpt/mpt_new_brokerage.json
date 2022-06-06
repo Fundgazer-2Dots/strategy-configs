@@ -1,0 +1,72 @@
+[
+    {
+        "strategy": {
+            "strategy_name": "Strategy_relative_comparision_index3_holdings",
+            "filtering_type": "Reversal",
+            "condition_type": "Reversal",
+            "runtime": {
+                "capital": 500000,
+                "n_days": 3
+            },
+            "exchange_type": "stock",
+            "index":"Index3_v2"
+        },
+        "bar_count": 2843
+    },
+    {
+        "strategy": {
+            "strategy_name": "Strategy_relative_comparision_index3_holdings",
+            "filtering_type": "Reversal",
+            "condition_type": "Reversal",
+            "runtime": {
+                "capital": 500000,
+                "n_days": 10
+            },
+            "exchange_type": "stock",
+            "index":"Index3_v2"
+        },
+        "bar_count": 2843
+    },
+    {
+        "strategy": {
+            "strategy_name": "Strategy_relative_comparision_index3_holdings",
+            "filtering_type": "Reversal",
+            "condition_type": "Reversal",
+            "runtime": {
+                "capital": 10000,
+                "n_days": 5
+            },
+            "exchange_type": "stock",
+            "index":"Index3_v2"
+        },
+        "bar_count": 2843
+    },
+    {
+        "strategy": {
+            "strategy_name": "Strategy_relative_comparision_index3",
+            "filtering_type": "Reversal",
+            "condition_type": "Reversal",
+            "runtime": {
+                "capital": 100000,
+                "n_days": 10
+            },
+            "exchange_type": "stock",
+            "index":"Index3"
+        },
+        "bar_count": 2843
+    },
+    {
+        "strategy": {
+            "strategy_name": "Strategy_relative_comparision_index3",
+            "filtering_type": "Reversal",
+            "condition_type": "Reversal",
+            "runtime": {
+                "capital": 100000,
+                "n_days": 3
+            },
+            "exchange_type": "stock",
+            "index":"Index3"
+        },
+        "bar_count": 2843
+    }
+]
