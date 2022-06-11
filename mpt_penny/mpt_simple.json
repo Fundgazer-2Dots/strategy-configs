@@ -5,12 +5,12 @@
             "filtering_type": "Reversal",
             "condition_type": "Reversal",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -18,12 +18,12 @@
             "filtering_type": "Reversal",
             "condition_type": "Breakout",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -31,12 +31,12 @@
             "filtering_type": "Breakout",
             "condition_type": "Reversal",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -44,12 +44,12 @@
             "filtering_type": "Breakout",
             "condition_type": "Breakout",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -57,12 +57,12 @@
             "filtering_type": "Reversal",
             "condition_type": "Reversal",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -70,12 +70,12 @@
             "filtering_type": "Reversal",
             "condition_type": "Breakout",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -83,12 +83,12 @@
             "filtering_type": "Breakout",
             "condition_type": "Reversal",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -96,12 +96,12 @@
             "filtering_type": "Breakout",
             "condition_type": "Breakout",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -109,12 +109,12 @@
             "filtering_type": "Reversal",
             "condition_type": "Reversal",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -122,12 +122,12 @@
             "filtering_type": "Reversal",
             "condition_type": "Breakout",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -135,12 +135,12 @@
             "filtering_type": "Breakout",
             "condition_type": "Reversal",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -148,12 +148,12 @@
             "filtering_type": "Breakout",
             "condition_type": "Breakout",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -161,12 +161,12 @@
             "filtering_type": "Breakout",
             "condition_type": "Reversal",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -174,12 +174,12 @@
             "filtering_type": "Reversal",
             "condition_type": "Breakout",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -187,12 +187,12 @@
             "filtering_type": "Breakout",
             "condition_type": "Reversal",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -200,12 +200,12 @@
             "filtering_type": "Reversal",
             "condition_type": "Breakout",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -213,12 +213,12 @@
             "filtering_type": "Breakout",
             "condition_type": "Reversal",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -226,12 +226,12 @@
             "filtering_type": "Reversal",
             "condition_type": "Breakout",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -239,12 +239,12 @@
             "filtering_type": "Breakout",
             "condition_type": "Reversal",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -252,12 +252,12 @@
             "filtering_type": "Reversal",
             "condition_type": "Breakout",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -265,12 +265,12 @@
             "filtering_type": "Reversal",
             "condition_type": "Reversal",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -278,12 +278,12 @@
             "filtering_type": "Reversal",
             "condition_type": "Breakout",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -291,12 +291,12 @@
             "filtering_type": "Breakout",
             "condition_type": "Reversal",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -304,12 +304,12 @@
             "filtering_type": "Breakout",
             "condition_type": "Breakout",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -317,12 +317,12 @@
             "filtering_type": "Reversal",
             "condition_type": "Reversal",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -330,12 +330,12 @@
             "filtering_type": "Reversal",
             "condition_type": "Breakout",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -343,12 +343,12 @@
             "filtering_type": "Breakout",
             "condition_type": "Reversal",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -356,12 +356,12 @@
             "filtering_type": "Breakout",
             "condition_type": "Breakout",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -369,12 +369,12 @@
             "filtering_type": "Reversal",
             "condition_type": "Reversal",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -382,12 +382,12 @@
             "filtering_type": "Reversal",
             "condition_type": "Breakout",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -395,12 +395,12 @@
             "filtering_type": "Breakout",
             "condition_type": "Reversal",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -408,12 +408,12 @@
             "filtering_type": "Breakout",
             "condition_type": "Breakout",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -421,12 +421,12 @@
             "filtering_type": "Reversal",
             "condition_type": "Reversal",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -434,12 +434,12 @@
             "filtering_type": "Reversal",
             "condition_type": "Breakout",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -447,12 +447,12 @@
             "filtering_type": "Breakout",
             "condition_type": "Reversal",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -460,12 +460,12 @@
             "filtering_type": "Breakout",
             "condition_type": "Breakout",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -473,12 +473,12 @@
             "filtering_type": "Reversal",
             "condition_type": "Reversal",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -486,12 +486,12 @@
             "filtering_type": "Reversal",
             "condition_type": "Breakout",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -499,12 +499,12 @@
             "filtering_type": "Breakout",
             "condition_type": "Reversal",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -512,12 +512,12 @@
             "filtering_type": "Breakout",
             "condition_type": "Breakout",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -525,12 +525,12 @@
             "filtering_type": "Breakout",
             "condition_type": "Reversal",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -538,12 +538,12 @@
             "filtering_type": "Reversal",
             "condition_type": "Breakout",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -551,12 +551,12 @@
             "filtering_type": "Breakout",
             "condition_type": "Reversal",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     },
     {
         "strategy": {
@@ -564,11 +564,11 @@
             "filtering_type": "Reversal",
             "condition_type": "Breakout",
             "runtime": {
-                "capital": 100000,
-                "n_days": 3
+                "capital": 10000,
+                "n_days": 5
             },
             "exchange_type": "stock"
         },
-        "bar_count": 2843
+        "bar_count": 1330
     }
 ]
